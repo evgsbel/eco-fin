@@ -1,0 +1,37 @@
+---
+layout: login
+title: Эко финанс - авторизация
+description: Эко финанс - Вход в личный кабинет
+h1: Вход в личный кабинет
+---
+
+<div id="__next">
+  <div>
+    <script type="text/javascript" async="" src="https://mc.yandex.ru/metrika/watch.js"></script>
+  </div>
+  <div class="h-screen relative">
+    <div class="Login_backgroundOpacity h-full w-full"
+         style="background-image: url('../assets/img/top-img.png');"></div>
+    <div class="Login_block container w-full max-w-screen-lg absolute bottom-0">
+      <div class="Login_backLink cursor-pointer h5 items-center mb-5 md:mb-16 inline-flex">
+        <div class="Login_icon mr-3 w-6 h-6"></div>
+        <a href="/" class="hidden md:block">Вернуться на главную</a></div>
+      <div class="Login_innerBlock bg-white md:pt-16">
+        <div class="md:w-3/6 mx-auto">
+          <div class="mb-5 md:mb-10 md:text-center">
+            <div class="h2">{{h1}}</div>
+          </div>
+          <div class="Login_phone"><label>Телефон</label><input type="tel" pattern="[0-9]*"
+                                                                       placeholder="+7 (999) 999-99-99" value=""></div>
+          <div class="text-center mt-10 md:mt-16">
+            <button type="submit"
+                    class="bg-primary text-white active:bg-primary-active hover:bg-primary-active w-full h-13 inline-block rounded text-base py-3 px-4 uppercase flex items-center justify-center">
+              Продолжить
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

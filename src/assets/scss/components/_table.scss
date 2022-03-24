@@ -1,0 +1,28 @@
+.table {
+  color: $white;
+  thead {
+    th {
+      font-weight: 700;
+      font-size: 1.25em;
+      line-height: 1.45;
+      border-top: none;
+      text-align: center;
+      border-bottom: 1px solid #e5e7eb;
+    }
+  }
+  tbody {
+    & + tbody {
+      border: none;
+    }
+    &:hover {
+      background: linear-gradient(90deg, #009F90 0%, #A6CEE3 100%);
+      cursor: pointer;
+    }
+    td {
+      border-top: none;
+      border-bottom: 1px solid #e5e7eb;
+      text-align: center;
+      line-height: 1.5;
+    }
+  }
+}

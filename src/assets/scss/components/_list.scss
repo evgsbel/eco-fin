@@ -1,0 +1,27 @@
+.list {
+  &__item {
+    position: relative;
+    padding-left: 12px;
+    font-weight: 350;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: color .3s ease-in-out, text-decoration .3s ease-in-out;
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+    &::before {
+      content: '>';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 0.75em;
+      line-height: 1.8;
+      color: $green;
+    }
+    &:hover {
+      text-decoration: underline;
+      color: $green;
+    }
+  }
+}

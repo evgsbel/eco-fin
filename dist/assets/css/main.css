@@ -1,0 +1,1906 @@
+/*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/* line 2, src/assets/scss/vendors/_modern-normalize.scss */
+:root {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+}
+
+/* line 8, src/assets/scss/vendors/_modern-normalize.scss */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 13, src/assets/scss/vendors/_modern-normalize.scss */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+/* line 18, src/assets/scss/vendors/_modern-normalize.scss */
+hr {
+  height: 0;
+  color: inherit;
+}
+
+/* line 23, src/assets/scss/vendors/_modern-normalize.scss */
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+/* line 28, src/assets/scss/vendors/_modern-normalize.scss */
+b, strong {
+  font-weight: bolder;
+}
+
+/* line 32, src/assets/scss/vendors/_modern-normalize.scss */
+code, kbd, pre, samp {
+  font-family: ui-monospace, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 1em;
+}
+
+/* line 37, src/assets/scss/vendors/_modern-normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 41, src/assets/scss/vendors/_modern-normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 48, src/assets/scss/vendors/_modern-normalize.scss */
+sub {
+  bottom: -.25em;
+}
+
+/* line 52, src/assets/scss/vendors/_modern-normalize.scss */
+sup {
+  top: -.5em;
+}
+
+/* line 56, src/assets/scss/vendors/_modern-normalize.scss */
+table {
+  text-indent: 0;
+  border-color: inherit;
+}
+
+/* line 61, src/assets/scss/vendors/_modern-normalize.scss */
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* line 68, src/assets/scss/vendors/_modern-normalize.scss */
+button, select {
+  text-transform: none;
+}
+
+/* line 72, src/assets/scss/vendors/_modern-normalize.scss */
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button;
+}
+
+/* line 76, src/assets/scss/vendors/_modern-normalize.scss */
+legend {
+  padding: 0;
+}
+
+/* line 80, src/assets/scss/vendors/_modern-normalize.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/* line 84, src/assets/scss/vendors/_modern-normalize.scss */
+summary {
+  display: list-item;
+}
+
+/* line 88, src/assets/scss/vendors/_modern-normalize.scss */
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+  margin: 0;
+}
+
+/* line 92, src/assets/scss/vendors/_modern-normalize.scss */
+button {
+  background-color: transparent;
+  background-image: none;
+}
+
+/* line 97, src/assets/scss/vendors/_modern-normalize.scss */
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+/* line 102, src/assets/scss/vendors/_modern-normalize.scss */
+fieldset, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 107, src/assets/scss/vendors/_modern-normalize.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 111, src/assets/scss/vendors/_modern-normalize.scss */
+html {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  line-height: 1.5;
+}
+
+/* line 116, src/assets/scss/vendors/_modern-normalize.scss */
+body {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+/* line 121, src/assets/scss/vendors/_modern-normalize.scss */
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+/* line 126, src/assets/scss/vendors/_modern-normalize.scss */
+hr {
+  border-top-width: 1px;
+}
+
+/* line 130, src/assets/scss/vendors/_modern-normalize.scss */
+img {
+  border-style: solid;
+}
+
+/* line 134, src/assets/scss/vendors/_modern-normalize.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 138, src/assets/scss/vendors/_modern-normalize.scss */
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #9ca3af;
+}
+
+/* line 142, src/assets/scss/vendors/_modern-normalize.scss */
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #9ca3af;
+}
+
+/* line 146, src/assets/scss/vendors/_modern-normalize.scss */
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #9ca3af;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #9ca3af;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #9ca3af;
+}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: #9ca3af;
+}
+input::placeholder, textarea::placeholder {
+  color: #9ca3af;
+}
+
+/* line 150, src/assets/scss/vendors/_modern-normalize.scss */
+[role=button], button {
+  cursor: pointer;
+}
+
+/* line 154, src/assets/scss/vendors/_modern-normalize.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* line 158, src/assets/scss/vendors/_modern-normalize.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* line 163, src/assets/scss/vendors/_modern-normalize.scss */
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* line 168, src/assets/scss/vendors/_modern-normalize.scss */
+button, input, optgroup, select, textarea {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+
+/* line 174, src/assets/scss/vendors/_modern-normalize.scss */
+code, kbd, pre, samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+
+/* line 178, src/assets/scss/vendors/_modern-normalize.scss */
+audio, canvas, embed, iframe, img, object, svg, video {
+  display: block;
+  vertical-align: middle;
+}
+
+/* line 183, src/assets/scss/vendors/_modern-normalize.scss */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 188, src/assets/scss/vendors/_modern-normalize.scss */
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+@media (min-width: 640px) {
+  /* line 197, src/assets/scss/vendors/_modern-normalize.scss */
+  .container {
+    max-width: 640px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 205, src/assets/scss/vendors/_modern-normalize.scss */
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 211, src/assets/scss/vendors/_modern-normalize.scss */
+  .container {
+    max-width: 1024px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* line 219, src/assets/scss/vendors/_modern-normalize.scss */
+  .container {
+    max-width: 1280px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  /* line 227, src/assets/scss/vendors/_modern-normalize.scss */
+  .container {
+    max-width: 1536px;
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+}
+
+/* line 234, src/assets/scss/vendors/_modern-normalize.scss */
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(.25rem * var(--tw-space-y-reverse));
+}
+
+/* line 240, src/assets/scss/vendors/_modern-normalize.scss */
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+/* line 246, src/assets/scss/vendors/_modern-normalize.scss */
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+/* line 252, src/assets/scss/vendors/_modern-normalize.scss */
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+}
+
+/* line 258, src/assets/scss/vendors/_modern-normalize.scss */
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
+/* line 263, src/assets/scss/vendors/_modern-normalize.scss */
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(185, 221, 83, var(--tw-bg-opacity));
+}
+
+/* line 268, src/assets/scss/vendors/_modern-normalize.scss */
+.bg-secondary-light {
+  --tw-bg-opacity: 1;
+  background-color: rgba(215, 236, 155, var(--tw-bg-opacity));
+}
+
+/* line 273, src/assets/scss/vendors/_modern-normalize.scss */
+.bg-text-10 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 248, 250, var(--tw-bg-opacity));
+}
+
+/* line 278, src/assets/scss/vendors/_modern-normalize.scss */
+.group:hover .group-hover\:bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(139, 185, 10, var(--tw-bg-opacity));
+}
+
+/* line 283, src/assets/scss/vendors/_modern-normalize.scss */
+.hover\:bg-primary-active:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(139, 185, 10, var(--tw-bg-opacity));
+}
+
+/* line 288, src/assets/scss/vendors/_modern-normalize.scss */
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+/* line 292, src/assets/scss/vendors/_modern-normalize.scss */
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: rgba(185, 221, 83, var(--tw-border-opacity));
+}
+
+/* line 297, src/assets/scss/vendors/_modern-normalize.scss */
+.border-text-5 {
+  --tw-border-opacity: 1;
+  border-color: rgba(182, 184, 193, var(--tw-border-opacity));
+}
+
+/* line 302, src/assets/scss/vendors/_modern-normalize.scss */
+.rounded {
+  border-radius: .25rem;
+}
+
+/* line 306, src/assets/scss/vendors/_modern-normalize.scss */
+.rounded-full {
+  border-radius: 9999px;
+}
+
+/* line 310, src/assets/scss/vendors/_modern-normalize.scss */
+.border {
+  border-width: 1px;
+}
+
+/* line 314, src/assets/scss/vendors/_modern-normalize.scss */
+.cursor-default {
+  cursor: default;
+}
+
+/* line 318, src/assets/scss/vendors/_modern-normalize.scss */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* line 322, src/assets/scss/vendors/_modern-normalize.scss */
+.block {
+  display: block;
+}
+
+/* line 326, src/assets/scss/vendors/_modern-normalize.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 330, src/assets/scss/vendors/_modern-normalize.scss */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 334, src/assets/scss/vendors/_modern-normalize.scss */
+.inline-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+/* line 338, src/assets/scss/vendors/_modern-normalize.scss */
+.table {
+  display: table;
+}
+
+/* line 342, src/assets/scss/vendors/_modern-normalize.scss */
+.hidden {
+  display: none;
+}
+
+/* line 346, src/assets/scss/vendors/_modern-normalize.scss */
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 350, src/assets/scss/vendors/_modern-normalize.scss */
+.items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 354, src/assets/scss/vendors/_modern-normalize.scss */
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 358, src/assets/scss/vendors/_modern-normalize.scss */
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 362, src/assets/scss/vendors/_modern-normalize.scss */
+.flex-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0%;
+          flex: 1 1 0%;
+}
+
+/* line 366, src/assets/scss/vendors/_modern-normalize.scss */
+.flex-shrink-0 {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+/* line 370, src/assets/scss/vendors/_modern-normalize.scss */
+.h-6 {
+  height: 1.5rem;
+}
+
+/* line 374, src/assets/scss/vendors/_modern-normalize.scss */
+.h-10 {
+  height: 2.5rem;
+}
+
+/* line 378, src/assets/scss/vendors/_modern-normalize.scss */
+.h-full {
+  height: 100%;
+}
+
+/* line 382, src/assets/scss/vendors/_modern-normalize.scss */
+.h-screen {
+  height: 100vh;
+}
+
+/* line 386, src/assets/scss/vendors/_modern-normalize.scss */
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* line 391, src/assets/scss/vendors/_modern-normalize.scss */
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+/* line 396, src/assets/scss/vendors/_modern-normalize.scss */
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* line 401, src/assets/scss/vendors/_modern-normalize.scss */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 406, src/assets/scss/vendors/_modern-normalize.scss */
+.mt-0 {
+  margin-top: 0;
+}
+
+/* line 410, src/assets/scss/vendors/_modern-normalize.scss */
+.mb-1 {
+  margin-bottom: .25rem;
+}
+
+/* line 414, src/assets/scss/vendors/_modern-normalize.scss */
+.mr-2 {
+  margin-right: .5rem;
+}
+
+/* line 418, src/assets/scss/vendors/_modern-normalize.scss */
+.mb-2 {
+  margin-bottom: .5rem;
+}
+
+/* line 422, src/assets/scss/vendors/_modern-normalize.scss */
+.mr-3 {
+  margin-right: .75rem;
+}
+
+/* line 426, src/assets/scss/vendors/_modern-normalize.scss */
+.mr-4 {
+  margin-right: 1rem;
+}
+
+/* line 430, src/assets/scss/vendors/_modern-normalize.scss */
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+/* line 434, src/assets/scss/vendors/_modern-normalize.scss */
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+/* line 438, src/assets/scss/vendors/_modern-normalize.scss */
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+/* line 442, src/assets/scss/vendors/_modern-normalize.scss */
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+/* line 446, src/assets/scss/vendors/_modern-normalize.scss */
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+/* line 450, src/assets/scss/vendors/_modern-normalize.scss */
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+/* line 454, src/assets/scss/vendors/_modern-normalize.scss */
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+/* line 458, src/assets/scss/vendors/_modern-normalize.scss */
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+/* line 462, src/assets/scss/vendors/_modern-normalize.scss */
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+/* line 466, src/assets/scss/vendors/_modern-normalize.scss */
+.mt-16 {
+  margin-top: 4rem;
+}
+
+/* line 470, src/assets/scss/vendors/_modern-normalize.scss */
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+/* line 474, src/assets/scss/vendors/_modern-normalize.scss */
+.mt-0\.5 {
+  margin-top: .125rem;
+}
+
+/* line 478, src/assets/scss/vendors/_modern-normalize.scss */
+.max-w-screen-lg {
+  max-width: 1024px;
+}
+
+/* line 482, src/assets/scss/vendors/_modern-normalize.scss */
+.min-h-screen {
+  min-height: 100vh;
+}
+
+/* line 486, src/assets/scss/vendors/_modern-normalize.scss */
+.p-10 {
+  padding: 2.5rem;
+}
+
+/* line 490, src/assets/scss/vendors/_modern-normalize.scss */
+.py-3 {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+/* line 495, src/assets/scss/vendors/_modern-normalize.scss */
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* line 500, src/assets/scss/vendors/_modern-normalize.scss */
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+/* line 505, src/assets/scss/vendors/_modern-normalize.scss */
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* line 510, src/assets/scss/vendors/_modern-normalize.scss */
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 515, src/assets/scss/vendors/_modern-normalize.scss */
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+/* line 520, src/assets/scss/vendors/_modern-normalize.scss */
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+/* line 525, src/assets/scss/vendors/_modern-normalize.scss */
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* line 530, src/assets/scss/vendors/_modern-normalize.scss */
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* line 535, src/assets/scss/vendors/_modern-normalize.scss */
+.pt-3 {
+  padding-top: .75rem;
+}
+
+/* line 539, src/assets/scss/vendors/_modern-normalize.scss */
+.pb-3 {
+  padding-bottom: .75rem;
+}
+
+/* line 543, src/assets/scss/vendors/_modern-normalize.scss */
+.pt-4 {
+  padding-top: 1rem;
+}
+
+/* line 547, src/assets/scss/vendors/_modern-normalize.scss */
+.pt-8 {
+  padding-top: 2rem;
+}
+
+/* line 551, src/assets/scss/vendors/_modern-normalize.scss */
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+/* line 555, src/assets/scss/vendors/_modern-normalize.scss */
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+/* line 559, src/assets/scss/vendors/_modern-normalize.scss */
+.pt-20 {
+  padding-top: 5rem;
+}
+
+/* line 563, src/assets/scss/vendors/_modern-normalize.scss */
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+/* line 567, src/assets/scss/vendors/_modern-normalize.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 571, src/assets/scss/vendors/_modern-normalize.scss */
+.relative {
+  position: relative;
+}
+
+/* line 575, src/assets/scss/vendors/_modern-normalize.scss */
+.right-0 {
+  right: 0;
+}
+
+/* line 579, src/assets/scss/vendors/_modern-normalize.scss */
+.bottom-0 {
+  bottom: 0;
+}
+
+/* line 583, src/assets/scss/vendors/_modern-normalize.scss */
+.left-0 {
+  left: 0;
+}
+
+/* line 587, src/assets/scss/vendors/_modern-normalize.scss */
+* {
+  --tw-shadow: 0 0 transparent;
+  --tw-ring-inset: var(--tw-empty, /*!*/
+    /*!*/
+  );
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 transparent;
+  --tw-ring-shadow: 0 0 transparent
+;
+}
+
+/* line 599, src/assets/scss/vendors/_modern-normalize.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 603, src/assets/scss/vendors/_modern-normalize.scss */
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+/* line 608, src/assets/scss/vendors/_modern-normalize.scss */
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgba(185, 221, 83, var(--tw-text-opacity));
+}
+
+/* line 613, src/assets/scss/vendors/_modern-normalize.scss */
+.text-error {
+  --tw-text-opacity: 1;
+  color: rgba(255, 86, 78, var(--tw-text-opacity));
+}
+
+/* line 618, src/assets/scss/vendors/_modern-normalize.scss */
+.text-text-2 {
+  --tw-text-opacity: 1;
+  color: rgba(75, 77, 88, var(--tw-text-opacity));
+}
+
+/* line 623, src/assets/scss/vendors/_modern-normalize.scss */
+.text-text-4 {
+  --tw-text-opacity: 1;
+  color: rgba(146, 148, 160, var(--tw-text-opacity));
+}
+
+/* line 628, src/assets/scss/vendors/_modern-normalize.scss */
+.text-text-5 {
+  --tw-text-opacity: 1;
+  color: rgba(182, 184, 193, var(--tw-text-opacity));
+}
+
+/* line 633, src/assets/scss/vendors/_modern-normalize.scss */
+.text-text-8 {
+  --tw-text-opacity: 1;
+  color: rgba(240, 241, 245, var(--tw-text-opacity));
+}
+
+/* line 638, src/assets/scss/vendors/_modern-normalize.scss */
+.text-text-form-img-header, .text-text-form-img-text, .text-text-top-img-header, .text-text-top-img-text {
+  --tw-text-opacity: 1;
+  color: rgba(248, 248, 250, var(--tw-text-opacity));
+}
+
+/* line 643, src/assets/scss/vendors/_modern-normalize.scss */
+.group:hover .group-hover\:text-secondary {
+  --tw-text-opacity: 1;
+  color: rgba(139, 185, 10, var(--tw-text-opacity));
+}
+
+/* line 648, src/assets/scss/vendors/_modern-normalize.scss */
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+/* line 653, src/assets/scss/vendors/_modern-normalize.scss */
+.hover\:text-primary-active:hover {
+  --tw-text-opacity: 1;
+  color: rgba(139, 185, 10, var(--tw-text-opacity));
+}
+
+/* line 658, src/assets/scss/vendors/_modern-normalize.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 662, src/assets/scss/vendors/_modern-normalize.scss */
+.line-through {
+  text-decoration: line-through;
+}
+
+/* line 666, src/assets/scss/vendors/_modern-normalize.scss */
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
+/* line 670, src/assets/scss/vendors/_modern-normalize.scss */
+.w-6 {
+  width: 1.5rem;
+}
+
+/* line 674, src/assets/scss/vendors/_modern-normalize.scss */
+.w-10 {
+  width: 2.5rem;
+}
+
+/* line 678, src/assets/scss/vendors/_modern-normalize.scss */
+.w-auto {
+  width: auto;
+}
+
+/* line 682, src/assets/scss/vendors/_modern-normalize.scss */
+.w-full {
+  width: 100%;
+}
+
+/* line 686, src/assets/scss/vendors/_modern-normalize.scss */
+.gap-x-3 {
+  -moz-column-gap: .75rem;
+  -webkit-column-gap: .75rem;
+          column-gap: .75rem;
+}
+
+/* line 691, src/assets/scss/vendors/_modern-normalize.scss */
+.gap-x-6 {
+  -moz-column-gap: 1.5rem;
+  -webkit-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+}
+
+/* line 696, src/assets/scss/vendors/_modern-normalize.scss */
+.gap-y-10 {
+  row-gap: 2.5rem;
+}
+
+/* line 700, src/assets/scss/vendors/_modern-normalize.scss */
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* line 704, src/assets/scss/vendors/_modern-normalize.scss */
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* line 708, src/assets/scss/vendors/_modern-normalize.scss */
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+/* line 712, src/assets/scss/vendors/_modern-normalize.scss */
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+/* line 716, src/assets/scss/vendors/_modern-normalize.scss */
+.col-start-4 {
+  grid-column-start: 4;
+}
+
+/* line 720, src/assets/scss/vendors/_modern-normalize.scss */
+.col-end-4 {
+  grid-column-end: 4;
+}
+
+/* line 724, src/assets/scss/vendors/_modern-normalize.scss */
+.col-end-7 {
+  grid-column-end: 7;
+}
+
+/* line 728, src/assets/scss/vendors/_modern-normalize.scss */
+.auto-rows-min {
+  grid-auto-rows: -webkit-min-content;
+  grid-auto-rows: min-content;
+}
+
+/* line 733, src/assets/scss/vendors/_modern-normalize.scss */
+.transform {
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  -webkit-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+          transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@-webkit-keyframes ping {
+  75%, to {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes ping {
+  75%, to {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, to {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@keyframes bounce {
+  0%, to {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+/* line 808, src/assets/scss/vendors/_modern-normalize.scss */
+.animate-spin {
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+/* line 813, src/assets/scss/vendors/_modern-normalize.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Comfortaa;
+  font-weight: 400;
+  color: #212227;
+}
+
+/* line 821, src/assets/scss/vendors/_modern-normalize.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 825, src/assets/scss/vendors/_modern-normalize.scss */
+body {
+  min-height: 100%;
+}
+
+/* line 829, src/assets/scss/vendors/_modern-normalize.scss */
+a {
+  text-decoration: none !important;
+}
+
+/* line 833, src/assets/scss/vendors/_modern-normalize.scss */
+.h1 {
+  font-size: 2.24rem;
+}
+
+/* line 837, src/assets/scss/vendors/_modern-normalize.scss */
+.h1, .h2 {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* line 842, src/assets/scss/vendors/_modern-normalize.scss */
+.h2 {
+  font-size: 1.5rem;
+}
+
+/* line 846, src/assets/scss/vendors/_modern-normalize.scss */
+.h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* line 851, src/assets/scss/vendors/_modern-normalize.scss */
+.h3, .h4 {
+  line-height: 1.5;
+}
+
+/* line 855, src/assets/scss/vendors/_modern-normalize.scss */
+.h4 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+/* line 860, src/assets/scss/vendors/_modern-normalize.scss */
+.h5 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+/* line 865, src/assets/scss/vendors/_modern-normalize.scss */
+.h5, p {
+  line-height: 1.5;
+}
+
+/* line 869, src/assets/scss/vendors/_modern-normalize.scss */
+p {
+  color: #4b4d58;
+  font-size: .875rem;
+}
+
+/* line 874, src/assets/scss/vendors/_modern-normalize.scss */
+.btn {
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+/* line 884, src/assets/scss/vendors/_modern-normalize.scss */
+.btn-outline-primary {
+  border: 1px solid #b9dd53;
+  color: #b9dd53;
+}
+
+/* line 889, src/assets/scss/vendors/_modern-normalize.scss */
+.btn-outline-primary:active, .btn-outline-primary:hover {
+  background: #8bb90a;
+  color: #fff;
+}
+
+/* line 894, src/assets/scss/vendors/_modern-normalize.scss */
+.btn-primary {
+  background: #b9dd53;
+  color: #fff;
+}
+
+/* line 899, src/assets/scss/vendors/_modern-normalize.scss */
+.btn-primary:active, .btn-primary:hover {
+  background: #8bb90a;
+}
+
+/* line 903, src/assets/scss/vendors/_modern-normalize.scss */
+.btn-flat {
+  color: #b9dd53;
+  text-transform: uppercase;
+}
+
+/* line 908, src/assets/scss/vendors/_modern-normalize.scss */
+.btn-flat:active, .btn-flat:hover {
+  color: #8bb90a;
+}
+
+/* line 912, src/assets/scss/vendors/_modern-normalize.scss */
+button:disabled {
+  color: #b6b8c1;
+}
+
+/* line 916, src/assets/scss/vendors/_modern-normalize.scss */
+button:disabled:hover {
+  color: #b6b8c1;
+  cursor: not-allowed;
+}
+
+/* line 921, src/assets/scss/vendors/_modern-normalize.scss */
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  /* line 926, src/assets/scss/vendors/_modern-normalize.scss */
+  .h1 {
+    font-size: 1.625rem;
+  }
+  /* line 929, src/assets/scss/vendors/_modern-normalize.scss */
+  .subtitle {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 935, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+  /* line 940, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:space-y-3 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(.75rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(.75rem * var(--tw-space-y-reverse));
+  }
+  /* line 945, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+  /* line 950, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:block {
+    display: block;
+  }
+  /* line 953, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  /* line 956, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:grid {
+    display: grid;
+  }
+  /* line 959, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:hidden {
+    display: none;
+  }
+  /* line 962, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:mb-0 {
+    margin-bottom: 0;
+  }
+  /* line 965, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:mb-1 {
+    margin-bottom: .25rem;
+  }
+  /* line 968, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+  /* line 971, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:mr-8 {
+    margin-right: 2rem;
+  }
+  /* line 974, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+  /* line 977, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:mt-14 {
+    margin-top: 3.5rem;
+  }
+  /* line 980, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:mt-16 {
+    margin-top: 4rem;
+  }
+  /* line 983, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:mb-16 {
+    margin-bottom: 4rem;
+  }
+  /* line 986, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:mb-20 {
+    margin-bottom: 5rem;
+  }
+  /* line 989, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:mb-24 {
+    margin-bottom: 6rem;
+  }
+  /* line 992, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:mb-32 {
+    margin-bottom: 8rem;
+  }
+  /* line 995, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  /* line 999, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  /* line 1003, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:pt-0 {
+    padding-top: 0;
+  }
+  /* line 1006, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:pl-6 {
+    padding-left: 1.5rem;
+  }
+  /* line 1009, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:pr-8 {
+    padding-right: 2rem;
+  }
+  /* line 1012, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:pt-16 {
+    padding-top: 4rem;
+  }
+  /* line 1015, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:relative {
+    position: relative;
+  }
+  /* line 1018, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:text-center {
+    text-align: center;
+  }
+  /* line 1021, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:w-auto {
+    width: auto;
+  }
+  /* line 1024, src/assets/scss/vendors/_modern-normalize.scss */
+  .md\:w-3\/6 {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 1030, src/assets/scss/vendors/_modern-normalize.scss */
+  .lg\:block {
+    display: block;
+  }
+  /* line 1033, src/assets/scss/vendors/_modern-normalize.scss */
+  .lg\:max-w-screen-lg {
+    max-width: 1024px;
+  }
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../font/../fonts/Comfortaa-Light.woff2") format("woff2"), url("../font/../fonts/Comfortaa-Light.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../font/../fonts/Comfortaa-Regular.woff2") format("woff2"), url("../font/../fonts/Comfortaa-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../font/../fonts/Comfortaa-Medium.woff2") format("woff2"), url("../font/../fonts/Comfortaa-Medium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../font/../fonts/Comfortaa-Bold.woff2") format("woff2"), url("../font/../fonts/Comfortaa-Bold.woff") format("woff");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../font/../fonts/Comfortaa-SemiBold.woff2") format("woff2"), url("../font/../fonts/Comfortaa-SemiBold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* line 1, src/assets/scss/pages/_home.scss */
+.HeaderDesktop_header {
+  height: 80px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 101;
+}
+
+/* line 7, src/assets/scss/pages/_home.scss */
+.HeaderDesktop_header .HeaderDesktop_item {
+  padding: .8rem 2rem;
+  color: #b9dd53;
+}
+
+/* line 11, src/assets/scss/pages/_home.scss */
+.HeaderDesktop_header .HeaderDesktop_item a {
+  cursor: pointer;
+}
+
+/* line 14, src/assets/scss/pages/_home.scss */
+.HeaderDesktop_header .HeaderDesktop_item a:hover {
+  color: #8bb90a;
+}
+
+/* line 21, src/assets/scss/pages/_home.scss */
+.HeaderMobile_header {
+  height: 80px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 101;
+}
+
+/* line 27, src/assets/scss/pages/_home.scss */
+.HeaderMobile_header .HeaderMobile_cross {
+  width: 28px;
+  height: 18px;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+/* line 33, src/assets/scss/pages/_home.scss */
+.HeaderMobile_header .HeaderMobile_cross .HeaderMobile_line {
+  height: 2px;
+  background-color: #b9dd53;
+  display: block;
+  position: absolute;
+  width: 100%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  opacity: 1;
+  left: 0;
+}
+
+/* line 44, src/assets/scss/pages/_home.scss */
+.HeaderMobile_header .HeaderMobile_cross .HeaderMobile_line:first-child {
+  top: 0;
+}
+
+/* line 48, src/assets/scss/pages/_home.scss */
+.HeaderMobile_header .HeaderMobile_cross .HeaderMobile_line:nth-child(2), .HeaderMobile_header .HeaderMobile_cross .HeaderMobile_line:nth-child(3) {
+  top: 8px;
+}
+
+/* line 52, src/assets/scss/pages/_home.scss */
+.HeaderMobile_header .HeaderMobile_cross .HeaderMobile_line:nth-child(4) {
+  top: 16px;
+}
+
+/* line 59, src/assets/scss/pages/_home.scss */
+.HeaderMobile_menuOpened {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 100%;
+}
+
+/* line 63, src/assets/scss/pages/_home.scss */
+.HeaderMobile_menuOpened .HeaderMobile_cross {
+  z-index: 101;
+}
+
+/* line 67, src/assets/scss/pages/_home.scss */
+.HeaderMobile_menuOpened .HeaderMobile_cross .HeaderMobile_line:first-child {
+  top: 8px;
+  width: 0;
+  left: 50%;
+}
+
+/* line 73, src/assets/scss/pages/_home.scss */
+.HeaderMobile_menuOpened .HeaderMobile_cross .HeaderMobile_line:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+/* line 77, src/assets/scss/pages/_home.scss */
+.HeaderMobile_menuOpened .HeaderMobile_cross .HeaderMobile_line:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+/* line 81, src/assets/scss/pages/_home.scss */
+.HeaderMobile_menuOpened .HeaderMobile_cross .HeaderMobile_line:nth-child(4) {
+  top: 8px;
+  width: 0;
+  left: 50%;
+}
+
+/* line 89, src/assets/scss/pages/_home.scss */
+.HeaderMobile_menuOpened .HeaderMobile_navBar {
+  display: block;
+  position: absolute;
+  padding-top: 40px;
+  min-height: calc(100vh - 40px);
+  z-index: 100;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  left: 0;
+  background: #fff;
+  top: 50px;
+}
+
+/* line 100, src/assets/scss/pages/_home.scss */
+.HeaderMobile_menuOpened .HeaderMobile_navBar .HeaderMobile_item {
+  margin-bottom: 1rem;
+  color: #b9dd53;
+}
+
+/* line 105, src/assets/scss/pages/_home.scss */
+.HeaderMobile_menuOpened .HeaderMobile_navBar .HeaderMobile_btn {
+  display: inline;
+}
+
+/* line 111, src/assets/scss/pages/_home.scss */
+.TopBlock_topBlock {
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+/* line 118, src/assets/scss/pages/_home.scss */
+.TopBlock_topBlock .TopBlock_days span {
+  color: #f8f8fa;
+}
+
+/* line 122, src/assets/scss/pages/_home.scss */
+.TopBlock_topBlock .TopBlock_handle:hover {
+  background-color: #d7ec9b !important;
+  -webkit-box-shadow: 0 0 15px #d7ec9b;
+          box-shadow: 0 0 15px #d7ec9b;
+}
+
+/* line 127, src/assets/scss/pages/_home.scss */
+.TopBlock_topBlock .TopBlock_handleActive {
+  background-color: #d7ec9b !important;
+  -webkit-box-shadow: 0 0 25px #d7ec9b;
+          box-shadow: 0 0 25px #d7ec9b;
+}
+
+/* line 132, src/assets/scss/pages/_home.scss */
+.TopBlock_topBlock .TopBlock_slider {
+  border-right: 1px solid #d1d3dc;
+}
+
+/* line 136, src/assets/scss/pages/_home.scss */
+.TopBlock_topBlock .TopBlock_sale {
+  color: #b9dd53;
+}
+
+@media (max-width: 768px) {
+  /* line 142, src/assets/scss/pages/_home.scss */
+  .TopBlock_topBlock {
+    height: 800px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+  }
+  /* line 147, src/assets/scss/pages/_home.scss */
+  .TopBlock_topBlock .TopBlock_slider {
+    border-right: none;
+    border-bottom: 1px solid #d1d3dc;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 155, src/assets/scss/pages/_home.scss */
+  .Steps_text {
+    max-width: 90%;
+  }
+}
+
+/* line 160, src/assets/scss/pages/_home.scss */
+.Steps_icon1 {
+  background-image: url('data:image/svg+xml,%3Csvg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M16.4713 12.5233H3.92859" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M13.4216 9.48584L16.4716 12.5233L13.4216 15.5608" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath opacity="0.4" d="M8.8587 7.69756V6.72568C8.8587 4.60589 10.5764 2.88818 12.6972 2.88818H17.7847C19.8993 2.88818 21.6129 4.60173 21.6129 6.71631V18.3205C21.6129 20.4403 19.8941 22.159 17.7743 22.159H12.6858C10.5722 22.159 8.8587 20.4444 8.8587 18.3309V17.3496" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E');
+}
+
+/* line 164, src/assets/scss/pages/_home.scss */
+.Steps_icon2 {
+  background-image: url('data:image/svg+xml,%3Csvg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M9.54803 6.77145C9.54803 8.59205 8.07118 10.0701 6.24942 10.0701C4.42766 10.0701 2.95081 8.59205 2.95081 6.77145C2.95081 4.94969 4.42766 3.47168 6.24942 3.47168C8.07118 3.47168 9.54803 4.94969 9.54803 6.77145Z" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath opacity="0.4" d="M14.1166 6.77158H22.0483" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M15.4515 18.305C15.4515 16.4832 16.9283 15.0063 18.7501 15.0063C20.5718 15.0063 22.0487 16.4832 22.0487 18.305C22.0487 20.1267 20.5718 21.6036 18.7501 21.6036C16.9283 21.6036 15.4515 20.1267 15.4515 18.305Z" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath opacity="0.4" d="M10.8829 18.3048H2.95117" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E');
+}
+
+/* line 168, src/assets/scss/pages/_home.scss */
+.Steps_icon3 {
+  background-image: url('data:image/svg+xml,%3Csvg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M12.2379 21.7232C9.85787 20.3316 7.64374 18.6939 5.63517 16.8392C4.22305 15.5036 3.14801 13.8753 2.49241 12.079C1.31264 8.59456 2.69069 4.60552 6.54726 3.42499C8.57412 2.80511 10.7878 3.1594 12.4957 4.37703C14.2043 3.16088 16.4172 2.80671 18.4441 3.42499C22.3007 4.60552 23.6887 8.59456 22.5089 12.079C21.8533 13.8753 20.7783 15.5036 19.3661 16.8392C17.3576 18.6939 15.1434 20.3316 12.7634 21.7232L12.5056 21.8755L12.2379 21.7232Z" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath opacity="0.4" d="M16.6002 7.34717C17.7683 7.70165 18.5982 8.6979 18.7019 9.87007" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E');
+}
+
+/* line 172, src/assets/scss/pages/_home.scss */
+.Advantages_icon1 {
+  background-image: url('data:image/svg+xml,%3Csvg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath opacity="0.4" d="M17.5412 21.0045V6.81934" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M21.7888 16.7378L17.5411 21.0052L13.2934 16.7378" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath opacity="0.4" d="M7.19906 3.99268V18.1779" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M2.95148 8.25955L7.19916 3.99219L11.4468 8.25955" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E');
+}
+
+/* line 176, src/assets/scss/pages/_home.scss */
+.Advantages_icon2 {
+  background-image: url('data:image/svg+xml,%3Csvg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M3.11495 5.07641C3.44445 4.52978 5.25992 2.54543 6.55545 2.60533C6.94272 2.63849 7.28506 2.8717 7.56321 3.14341C8.20189 3.76813 10.0302 6.12582 10.134 6.62218C10.3864 7.83953 8.93578 8.54128 9.37975 9.76826C10.5116 12.5378 12.4619 14.4879 15.2327 15.6186C16.4587 16.0636 17.1605 14.6131 18.3779 14.8655C18.8732 14.9693 21.2332 16.7975 21.8569 17.4361C22.1276 17.7132 22.3629 18.0565 22.395 18.4438C22.4432 19.8077 20.3357 21.6487 19.9249 21.884C18.9556 22.5783 17.6911 22.5655 16.1495 21.8487C11.8478 20.0591 4.97321 13.3144 3.15025 8.85043C2.45274 7.3175 2.4046 6.04452 3.11495 5.07641Z" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M22.6653 3.39508C22.9582 3.10218 22.9582 2.62731 22.6653 2.33442C22.3724 2.04152 21.8976 2.04152 21.6047 2.33442L19.01 4.92909L16.4153 2.33442C16.1224 2.04152 15.6476 2.04152 15.3547 2.33442C15.0618 2.62731 15.0618 3.10218 15.3547 3.39508L17.9494 5.98975L15.3547 8.58442C15.0618 8.87731 15.0618 9.35218 15.3547 9.64508C15.6476 9.93797 16.1224 9.93797 16.4153 9.64508L19.01 7.05041L21.6047 9.64508C21.8976 9.93797 22.3724 9.93797 22.6653 9.64508C22.9582 9.35218 22.9582 8.87731 22.6653 8.58442L20.0707 5.98975L22.6653 3.39508Z" fill="%238BB90A"/%3E%3C/svg%3E');
+}
+
+/* line 180, src/assets/scss/pages/_home.scss */
+.Advantages_icon3 {
+  background-image: url('data:image/svg+xml,%3Csvg width="25" height="25" viewBox="0 1 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M13.2824 3.09004L15.823 8.20879C15.949 8.46712 16.1938 8.64629 16.4782 8.689L22.1636 9.51296C22.3938 9.54316 22.6021 9.66504 22.7428 9.85046C23.0074 10.1952 22.9678 10.6869 22.6501 10.9848L18.5313 14.9848C18.323 15.1796 18.2292 15.4692 18.2834 15.7484L19.2761 21.3869C19.3449 21.8557 19.0271 22.2911 18.5615 22.3682C18.3678 22.3984 18.1699 22.3671 17.9959 22.2796L12.9251 19.6223C12.6709 19.4838 12.3646 19.4838 12.1115 19.6223L7.00736 22.2984C6.58132 22.513 6.06465 22.3515 5.8334 21.9369C5.74486 21.7692 5.71257 21.5755 5.74382 21.3869L6.73652 15.7484C6.78444 15.4692 6.69173 15.1827 6.48861 14.9848L2.33757 10.9838C1.99902 10.6463 1.99798 10.0984 2.33548 9.75879C2.33652 9.75879 2.33652 9.75775 2.33757 9.75671C2.47611 9.63066 2.64798 9.54525 2.8334 9.51296L8.51882 8.689C8.80111 8.64316 9.0459 8.464 9.17402 8.20879L11.7146 3.09004C11.8157 2.88171 11.9969 2.72233 12.2167 2.64941C12.4365 2.57546 12.6771 2.59212 12.8855 2.69733C13.0563 2.78275 13.1949 2.92025 13.2824 3.09004Z" stroke="%238BB90A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E');
+}
+
+/* line 184, src/assets/scss/pages/_home.scss */
+.Form_form {
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+}
+
+/* line 189, src/assets/scss/pages/_home.scss */
+.Form_form .Form_btn {
+  padding: 15px 44px;
+}
+
+/* line 193, src/assets/scss/pages/_home.scss */
+.Form_form .Form_fullInput {
+  width: 100%;
+  border: 1px solid #b6b8c1;
+  padding: 6px 16px;
+  border-radius: 4px;
+}
+
+/* line 199, src/assets/scss/pages/_home.scss */
+.Form_form .Form_fullInput:hover {
+  border: 1px solid #b9dd53;
+  -webkit-box-shadow: 0 4px 20px rgba(51, 51, 51, 0.1);
+          box-shadow: 0 4px 20px rgba(51, 51, 51, 0.1);
+}
+
+/* line 203, src/assets/scss/pages/_home.scss */
+.Form_form .Form_fullInput:hover label {
+  color: #b9dd53;
+}
+
+/* line 208, src/assets/scss/pages/_home.scss */
+.Form_form .Form_fullInput:focus-within {
+  border: 1px solid #b9dd53;
+  background-color: rgba(215, 236, 155, 0.3);
+}
+
+/* line 212, src/assets/scss/pages/_home.scss */
+.Form_form .Form_fullInput:focus-within input {
+  background-color: rgba(215, 236, 155, 0);
+}
+
+/* line 216, src/assets/scss/pages/_home.scss */
+.Form_form .Form_fullInput:focus-within label {
+  color: #b9dd53;
+}
+
+/* line 221, src/assets/scss/pages/_home.scss */
+.Form_form .Form_fullInput input {
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  display: block;
+}
+
+/* line 229, src/assets/scss/pages/_home.scss */
+.Form_form .Form_fullInput label {
+  display: block;
+  font-size: 12px;
+  padding-bottom: 1px;
+}
+
+@media (min-width: 768px) {
+  /* line 238, src/assets/scss/pages/_home.scss */
+  .Form_fullInput {
+    max-width: 400px;
+  }
+}
+
+/* line 243, src/assets/scss/pages/_home.scss */
+.Footer_footer {
+  border-top: 1px solid #d1d3dc;
+}
+
+/* line 246, src/assets/scss/pages/_home.scss */
+.Footer_footer .Footer_topBlock {
+  border-bottom: 1px solid #d1d3dc;
+}
+
+/* line 249, src/assets/scss/pages/_home.scss */
+.Footer_footer .Footer_topBlock .Footer_item {
+  color: #b9dd53;
+  cursor: pointer;
+}
+
+/* line 253, src/assets/scss/pages/_home.scss */
+.Footer_footer .Footer_topBlock .Footer_item:hover {
+  color: #8bb90a;
+}
+
+/* line 260, src/assets/scss/pages/_home.scss */
+.EmptyBlock_block {
+  border-top: 1px solid #d1d3dc;
+}
+
+/* line 264, src/assets/scss/pages/_home.scss */
+.AlertBlock_blockContainer {
+  position: fixed;
+  z-index: 10000;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #b9dd53;
+  border: 1px solid #d1d3dc;
+  -webkit-animation: AlertBlock_fadeIn 1s;
+  animation: AlertBlock_fadeIn 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/* line 277, src/assets/scss/pages/_home.scss */
+.AlertBlock_blockContainer .AlertBlock_block {
+  position: relative;
+}
+
+/* line 280, src/assets/scss/pages/_home.scss */
+.AlertBlock_blockContainer .AlertBlock_block .AlertBlock_cross {
+  cursor: pointer;
+  top: 0;
+  right: 20px;
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+}
+
+/* line 289, src/assets/scss/pages/_home.scss */
+.AlertBlock_blockContainer .AlertBlock_block span {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  /* line 296, src/assets/scss/pages/_home.scss */
+  .AlertBlock_blockContainer {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes AlertBlock_fadeIn {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes AlertBlock_fadeIn {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* line 1, src/assets/scss/pages/_inner.scss */
+.TopBlock_background {
+  height: 200px;
+  width: 100%;
+  background-color: #8bb90a;
+}
+
+/* line 7, src/assets/scss/pages/_inner.scss */
+.Documents_root:hover .Documents_icon {
+  background-image: url('data:image/svg+xml,%3Csvg width="25" height="25" viewBox="-1 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M14.5834 2.08325H6.25002C5.09943 2.08325 4.16669 3.01599 4.16669 4.16659V20.8333C4.16669 21.9838 5.09943 22.9166 6.25002 22.9166H18.75C19.9006 22.9166 20.8334 21.9838 20.8334 20.8333V8.33325L14.5834 2.08325Z" stroke="%23ffffff" stroke-width="1.25333" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M14.5833 2.08325V8.33325H20.8333" stroke="%23ffffff" stroke-width="1.25333" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M16.6666 13.5417H8.33331" stroke="%23ffffff" stroke-width="1.25333" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M16.6666 17.7083H8.33331" stroke="%23ffffff" stroke-width="1.25333" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M10.4166 9.375H9.37498H8.33331" stroke="%23ffffff" stroke-width="1.25333" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E');
+}
+
+/* line 11, src/assets/scss/pages/_inner.scss */
+.Documents_icon {
+  width: 25px;
+  height: 25px;
+  background-image: url('data:image/svg+xml,%3Csvg width="25" height="25" viewBox="-1 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M14.5834 2.08325H6.25002C5.09943 2.08325 4.16669 3.01599 4.16669 4.16659V20.8333C4.16669 21.9838 5.09943 22.9166 6.25002 22.9166H18.75C19.9006 22.9166 20.8334 21.9838 20.8334 20.8333V8.33325L14.5834 2.08325Z" stroke="%238BB90A" stroke-width="1.25333" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M14.5833 2.08325V8.33325H20.8333" stroke="%238BB90A" stroke-width="1.25333" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M16.6666 13.5417H8.33331" stroke="%238BB90A" stroke-width="1.25333" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M16.6666 17.7083H8.33331" stroke="%238BB90A" stroke-width="1.25333" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M10.4166 9.375H9.37498H8.33331" stroke="%238BB90A" stroke-width="1.25333" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E');
+}
+
+/* line 1, src/assets/scss/pages/_login.scss */
+.Spinner_spinner {
+  width: 18px;
+  height: 18px;
+  margin-right: 1rem;
+}
+
+/* line 6, src/assets/scss/pages/_login.scss */
+.Spinner_spinner svg {
+  color: #b6b8c1;
+}
+
+/* line 9, src/assets/scss/pages/_login.scss */
+.Spinner_spinner svg > * {
+  stroke: #b6b8c1;
+  color: #b6b8c1;
+  display: block;
+  fill: transparent;
+  stroke-linecap: round;
+  stroke-dasharray: 283;
+  stroke-dashoffset: 75;
+  stroke-width: 10px;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+/* line 23, src/assets/scss/pages/_login.scss */
+.Login_block {
+  top: 60px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  min-height: 500px;
+}
+
+/* line 29, src/assets/scss/pages/_login.scss */
+.Login_block .Login_backLink a {
+  color: #fff;
+}
+
+/* line 33, src/assets/scss/pages/_login.scss */
+.Login_block .Login_innerBlock {
+  height: 500px;
+}
+
+/* line 38, src/assets/scss/pages/_login.scss */
+.Login_backgroundOpacity {
+  background-size: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+}
+
+/* line 43, src/assets/scss/pages/_login.scss */
+.Login_icon {
+  background-image: url('data:image/svg+xml,%3Csvg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M20 12H4" stroke="%23ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M10 18L4 12L10 6" stroke="%23ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E');
+}
+
+/* line 48, src/assets/scss/pages/_login.scss */
+.Login_phone label {
+  font-size: 16px;
+}
+
+/* line 52, src/assets/scss/pages/_login.scss */
+.Login_phone input {
+  border-radius: 4px;
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #b6b8c1;
+  padding: 12px 16px;
+  font-size: 16px;
+  outline: none;
+  display: block;
+}
+
+/* line 62, src/assets/scss/pages/_login.scss */
+.Login_phone input:focus {
+  border: 1px solid #b9dd53;
+  background-color: rgba(215, 236, 155, 0.3);
+}
+
+/* line 67, src/assets/scss/pages/_login.scss */
+.Login_phone input:hover {
+  border: 1px solid #b9dd53;
+}
+
+/* line 73, src/assets/scss/pages/_login.scss */
+.Login_error input {
+  border: 1px solid #ff564e;
+}
+
+/* line 77, src/assets/scss/pages/_login.scss */
+.Login_text {
+  color: #4b4d58;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  /* line 83, src/assets/scss/pages/_login.scss */
+  .Login_backgroundOpacity {
+    background: none !important;
+  }
+  /* line 87, src/assets/scss/pages/_login.scss */
+  .Login_block {
+    top: 35px;
+  }
+  /* line 90, src/assets/scss/pages/_login.scss */
+  .Login_block .Login_innerBlock {
+    height: auto;
+  }
+  /* line 94, src/assets/scss/pages/_login.scss */
+  .Login_block .Login_backLink img {
+    -webkit-filter: invert(54%) sepia(12%) saturate(2166%) hue-rotate(190deg) brightness(106%) contrast(101%);
+            filter: invert(54%) sepia(12%) saturate(2166%) hue-rotate(190deg) brightness(106%) contrast(101%);
+  }
+}
+
+/* line 100, src/assets/scss/pages/_login.scss */
+.PinCode_input {
+  width: 20px;
+  border-bottom: 1px solid #b6b8c1;
+  padding-bottom: 10px;
+  border-radius: 0;
+  outline: none;
+  margin: 0 20px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #4b4d58;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* line 114, src/assets/scss/pages/_login.scss */
+.PinCode_input:focus {
+  border-bottom: 1px solid #b9dd53;
+}
+
+/* line 118, src/assets/scss/pages/_login.scss */
+.PinCode_input::-webkit-inner-spin-button, .PinCode_input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  -moz-appearance: textfield;
+}
+
+/* line 125, src/assets/scss/pages/_login.scss */
+.PinCode_active {
+  border-bottom: 1px solid #b9dd53;
+}
+
+/* line 129, src/assets/scss/pages/_login.scss */
+.PinCode_error {
+  border-bottom: 1px solid #ff564e;
+}
+
+/* line 133, src/assets/scss/pages/_login.scss */
+.PinCode_textError {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  color: #ff564e;
+}
+
+/*# sourceMappingURL=../../../scss */
+/*# sourceMappingURL=main.css.map */
