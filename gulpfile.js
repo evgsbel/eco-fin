@@ -116,6 +116,7 @@ function jsVendor() {
   log(chalk.red.bold('---------------COPY JAVASCRIPT VENDOR FILES INTO DIST---------------'));
   return src([
       'node_modules/jquery/dist/jquery.js',
+      'node_modules/ion-rangeslider/js/ion.rangeSlider.min.js'
     ])
     .pipe(dest('dist/assets/vendor/js'))
     .pipe(browserSync.stream());
@@ -126,6 +127,7 @@ function cssVendor() {
   log(chalk.red.bold('---------------COPY CSS VENDOR FILES INTO DIST---------------'));
   return src([
     'node_modules/animate.css/animate.css',
+    'node_modules/ion-rangeslider/css/ion.rangeSlider.min.css'
   ])
     .pipe(dest('dist/assets/vendor/css'))
     .pipe(browserSync.stream());
@@ -291,6 +293,7 @@ function concatScripts() {
   log(chalk.red.bold('---------------CONCATINATE SCRIPTS---------------'));
   return src([
       'dist/assets/vendor/js/jquery.js',
+      'dist/assets/vendor/js/ion.rangeSlider.min.js',
       'src/assets/js/util/*',
       'src/assets/js/*'
     ])

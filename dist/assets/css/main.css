@@ -1720,6 +1720,49 @@ button:focus {
   }
 }
 
+/* line 322, src/assets/scss/pages/_home.scss */
+.range {
+  height: 40px;
+}
+
+/* line 324, src/assets/scss/pages/_home.scss */
+.range .irs--round {
+  height: 40px;
+  margin-top: -30px;
+}
+
+/* line 328, src/assets/scss/pages/_home.scss */
+.range .irs--round .irs-bar {
+  height: 3px;
+  background-color: #B9DD53;
+}
+
+/* line 332, src/assets/scss/pages/_home.scss */
+.range .round .irs-line {
+  top: 26px;
+  height: 3px;
+  background-color: #d1d3dc;
+  border-radius: 3px;
+}
+
+/* line 338, src/assets/scss/pages/_home.scss */
+.range .irs--round .irs-handle {
+  top: 22px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid #b9dd53;
+  background-color: white;
+}
+
+/* line 346, src/assets/scss/pages/_home.scss */
+.range .irs--round .irs-handle:hover, .range .irs--round .irs-handle:active {
+  background-color: #d7ec9b;
+  -webkit-box-shadow: 0 0 15px #d7ec9b;
+  box-shadow: 0 0 15px #d7ec9b;
+}
+
 /* line 1, src/assets/scss/pages/_inner.scss */
 .TopBlock_background {
   height: 200px;

@@ -14,83 +14,52 @@ h1: Онлайн займ на карту за 15 минут
         Моментальное одобрение заявки!
       </div>
     </div>
-    <div
-      class="py-10 px-10 bg-white md:grid grid-cols-5 gap-x-3 rounded absolute bottom-0 left-0 right-0 md:relative">
+    <div class="py-10 px-10 bg-white md:grid grid-cols-5 gap-x-3 rounded absolute bottom-0 left-0 right-0 md:relative">
       <div class="TopBlock_slider col-start-1 col-end-4 md:pr-8 pb-20 md:mb-0">
         <div class="pb-20">
-          <div style="height: 40px; width: 100%;">
-            <div class="flex justify-between pb-3 items-center">
+          <div class="range">
+            <div class="range__top flex justify-between pb-3 items-center">
               <div class="h5">Сколько хотите занять?</div>
-              <div class="h2">15000 ₽</div>
+              <div class="h2 js-range-value">15000 ₽</div>
             </div>
-            <div style="position: relative; width: 100%;">
-              <div
-                style="position: absolute; width: 100%; height: 40px; transform: translate(0%, -50%); cursor: pointer;"></div>
-              <div
-                style="position: absolute; width: 100%; height: 3px; transform: translate(0%, -50%); border-radius: 4px; pointer-events: none; background-color: rgb(209, 211, 220);"></div>
-              <div>
-                <div class="TopBlock_handle"
-                     style="left: 29.2929%; position: absolute; transform: translate(-50%, -50%); -webkit-tap-highlight-color: rgba(0, 0, 0, 0); z-index: 5; width: 30px; height: 30px; cursor: pointer; border-radius: 50%; border: 3px solid rgb(185, 221, 83); background-color: rgb(255, 255, 255);"></div>
-                <div role="slider" aria-valuemin="500" aria-valuemax="50000" aria-valuenow="15000"
-                     style="left: 29.2929%; position: absolute; transform: translate(-50%, -50%); z-index: 2; width: 20px; height: 20px; border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px 1px; background-color: rgb(51, 51, 51);"></div>
-              </div>
-              <div>
-                <div
-                  style="position: absolute; transform: translate(0%, -50%); height: 3px; z-index: 1; background-color: rgb(185, 221, 83); border-radius: 4px; cursor: pointer; left: 0%; width: 29.2929%;"></div>
-              </div>
-              <div class="flex justify-between pt-4 items-center text-text-8">
-                <div class="h5 text-text-4">500 ₽</div>
-                <div class="h5 text-text-4">50000 ₽</div>
-              </div>
+            <input type="text" class="js-range-slider-money" name="my_range-1" value=""/>
+            <div class="flex justify-between pt-4 items-center text-text-8">
+              <div class="h5 text-text-4">500 ₽</div>
+              <div class="h5 text-text-4">50000 ₽</div>
             </div>
           </div>
         </div>
-        <div style="height: 40px; width: 100%;">
-          <div class="flex justify-between pb-3 items-center">
+        <div class="range">
+          <div class="range__top flex justify-between pb-3 items-center">
             <div class="h5">На какой срок?</div>
-            <div class="h2">10 дней</div>
+            <div class="h2"><span class="js-range-time">10</span> <span class="js-decl-days">дней</span></div>
           </div>
-          <div style="position: relative; width: 100%;">
-            <div
-              style="position: absolute; width: 100%; height: 40px; transform: translate(0%, -50%); cursor: pointer;"></div>
-            <div
-              style="position: absolute; width: 100%; height: 3px; transform: translate(0%, -50%); border-radius: 4px; pointer-events: none; background-color: rgb(209, 211, 220);"></div>
-            <div>
-              <div class="TopBlock_handle"
-                   style="left: 31.0345%; position: absolute; transform: translate(-50%, -50%); -webkit-tap-highlight-color: rgba(0, 0, 0, 0); z-index: 5; width: 30px; height: 30px; cursor: pointer; border-radius: 50%; border: 3px solid rgb(185, 221, 83); background-color: rgb(255, 255, 255);"></div>
-              <div role="slider" aria-valuemin="1" aria-valuemax="30" aria-valuenow="10"
-                   style="left: 31.0345%; position: absolute; transform: translate(-50%, -50%); z-index: 2; width: 20px; height: 20px; border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px 1px; background-color: rgb(51, 51, 51);"></div>
-            </div>
-            <div>
-              <div
-                style="position: absolute; transform: translate(0%, -50%); height: 3px; z-index: 1; background-color: rgb(185, 221, 83); border-radius: 4px; cursor: pointer; left: 0%; width: 31.0345%;"></div>
-            </div>
-            <div class="flex justify-between pt-4 items-center text-text-8">
-              <div class="h5 text-text-4">1 день</div>
-              <div class="h5 text-text-4">30 дней</div>
-            </div>
+          <input type="text" class="js-range-slider-time" name="my_range-2" value=""/>
+          <div class="flex justify-between pt-4 items-center text-text-8">
+            <div class="h5 text-text-4">1 день</div>
+            <div class="h5 text-text-4">30 дней</div>
           </div>
         </div>
       </div>
       <div class="pt-10 md:pt-0 md:pl-6 space-y-1 md:space-y-3 col-start-4 col-end-7">
         <div class="flex justify-between items-center">
           <div>Вы берете</div>
-          <div class="h3">15000 ₽</div>
+          <div class="h3 js-range-value">15000 ₽</div>
         </div>
         <div class="flex justify-between items-center">
           <div>До</div>
-          <div class="h3">03.04.2022</div>
+          <div class="h3 js-date">03.04.2022</div>
         </div>
         <div class="flex justify-between items-center">
           <div>Возвращаете</div>
           <div class="flex items-center">
-            <div class="h5 line-through mr-2 md:hidden lg:block">16500 ₽</div>
-            <div class="h3">15450 ₽</div>
+            <div class="h5 line-through mr-2 md:hidden lg:block js-refund">16500 ₽</div>
+            <div class="h3 js-sum-discount">15450 ₽</div>
           </div>
         </div>
         <div class="flex justify-between items-center">
           <div class="text-primary">Ваша скидка</div>
-          <div class="TopBlock_sale h3">1050 ₽</div>
+          <div class="TopBlock_sale h3 js-discount">1050 ₽</div>
         </div>
         <div class="text-center">
           <a href="login.html" class="btn btn-primary mt-6 w-full">Отправить заявку</a>
@@ -99,6 +68,7 @@ h1: Онлайн займ на карту за 15 минут
     </div>
   </div>
 </div>
+
 <div>
   <div class="container pt-20 pb-10 lg:max-w-screen-lg">
     <div class="text-center mb-10">
