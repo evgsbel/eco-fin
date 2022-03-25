@@ -1,18 +1,18 @@
 "use strict";
 
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
 $(function () {
   var $moneyBlock = $('.js-range-value'),
       $moneyRefundBlock = $('.js-refund'),
       $moneyDiscondBlock = $('.js-discount'),
       $moneySumDiscondBlock = $('.js-sum-discount'),
+      $dayPercentBlock = $('.js-day-percent'),
+      $hiddenInput = $('.js-hidden-value'),
       $dateBlock = $('.js-date'),
       $timeBlock = $('.js-range-time'),
       $day_ref = $('.js-decl-days'),
-      // $moneyRange = $('.js-range-slider-money'),
-  // $timeRange = $('.js-range-slider-time'),
-  fullDate = new Date(),
+      $moneyRange = $('.js-range-slider-money'),
+      $timeRange = $('.js-range-slider-time'),
+      fullDate = new Date(),
       twoDigitMonth = fullDate.getMonth().toString().length == 1 ? '0' + (fullDate.getMonth() + 1) : fullDate.getMonth() + 1,
       twoDigitDate = fullDate.getDate().toString().length == 1 ? '0' + fullDate.getDate() : fullDate.getDate(),
       currentDate = twoDigitDate + "." + twoDigitMonth + "." + fullDate.getFullYear(),
@@ -38,7 +38,7 @@ $(function () {
   }
 
   $dateBlock.html(currentDate);
-  $(".js-range-slider-money").ionRangeSlider({
+  $moneyRange.ionRangeSlider({
     skin: "round",
     min: 500,
     max: 50000,
@@ -49,13 +49,14 @@ $(function () {
     hide_from_to: true,
     hide_min_max: true,
     onChange: function onChange(data) {
+      $hiddenInput.val(data.from);
       $moneyBlock.html(data.from + ' ₽');
       $moneyRefundBlock.html(data.from * 101 / 100 + ' ₽');
       $moneyDiscondBlock.html(Math.round(data.from * 101 / 100 * 0.007) + ' ₽');
       $moneySumDiscondBlock.html(data.from * 101 / 100 - Math.round(data.from * 101 / 100 * 0.007) + ' ₽');
     }
   });
-  $(".js-range-slider-time").ionRangeSlider({
+  $timeRange.ionRangeSlider({
     skin: "round",
     min: 1,
     max: 30,
@@ -66,10 +67,15 @@ $(function () {
     hide_from_to: true,
     hide_min_max: true,
     onChange: function onChange(data) {
+      var fullDate = new Date();
+      fullDate.setDate(fullDate.getDate() + data.from);
+      var twoDigitMonth = fullDate.getMonth().toString().length == 1 ? '0' + (fullDate.getMonth() + 1) : fullDate.getMonth() + 1,
+          twoDigitDate = fullDate.getDate().toString().length == 1 ? '0' + fullDate.getDate() : fullDate.getDate(),
+          currentDate = twoDigitDate + "." + twoDigitMonth + "." + fullDate.getFullYear();
+      $dateBlock.html(currentDate);
       $timeBlock.text(data.from);
       dayVal = declOfNum(data.from, ['день', 'дня', 'дней']);
       $day_ref.text(dayVal);
-      console.log(_typeof(data.from));
     }
   });
 });
